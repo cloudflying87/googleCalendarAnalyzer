@@ -1,0 +1,43 @@
+body{
+    background-color: #93b1ec;
+}
+.dates {
+    text-align: center;
+    background-color: #93b1ec;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
+  
+  button {
+    background-color: #a5e3f5;
+    font-size: 1em;
+    padding: 5px 35px;
+    margin: 5%
+  }
+  
+input {
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+
+.errorMessage{
+    background-color: orangered;
+    font-size: 1.2em;
+    text-align: center;
+}
+.selectDiv2{
+    width:200px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    color: black;
+}
